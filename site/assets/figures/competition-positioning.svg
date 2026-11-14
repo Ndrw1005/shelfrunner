@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1600" height="1200" viewBox="0 0 1600 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Competitive positioning map</title>
+  <desc id="desc">Horizontal axis: package placement accuracy increases left to right. Vertical axis: ease of use increases bottom to top. Seven alternatives are positioned qualitatively; the product is marked by a gold star.</desc>
+  <rect width="1600" height="1200" fill="white"/>
+  <g stroke="#111" stroke-width="5" fill="#111">
+    <line x1="165" y1="600" x2="1435" y2="600"/>
+    <path d="M165 600l22 -13v26z M1435 600l-22 -13v26z"/>
+    <line x1="800" y1="100" x2="800" y2="1080"/>
+    <path d="M800 100l-13 22h26z M800 1080l-13 -22h26z"/>
+  </g>
+  <g font-family="Arial, Helvetica, sans-serif" fill="#111" font-size="29">
+    <text x="800" y="45" text-anchor="middle">Higher ease of use</text>
+    <text x="800" y="1140" text-anchor="middle">Lower ease of use</text>
+    <text x="152" y="548" text-anchor="middle"><tspan x="152">Lower package</tspan><tspan x="152" dy="34">placement accuracy</tspan></text>
+    <text x="1448" y="548" text-anchor="middle"><tspan x="1448">Higher package</tspan><tspan x="1448" dy="34">placement accuracy</tspan></text>
+  </g>
+  <!-- Original centers in the 1280 × 695 chart were transposed relative to (640,341), with original half-axis lengths 395 and 264. -->
+  <g font-family="Arial, Helvetica, sans-serif" font-size="25" fill="#111">
+    <circle cx="885" cy="176" r="14" fill="#0aa4b7"/><text x="909" y="184">Fetch</text>
+    <path d="M1133 205l6 18h19l-15 11 6 18-16-11-16 11 6-18-15-11h19z" fill="#ffad00"/><text x="1165" y="238">Our Product</text>
+    <circle cx="1043" cy="302" r="14" fill="#fb8c00"/><text x="1067" y="310">Amazon / Luxer Lockers</text>
+    <circle cx="946" cy="408" r="14" fill="#7042ae"/><text x="970" y="416">Parcel Pending</text>
+    <circle cx="1019" cy="503" r="14" fill="#20ad50"/><text x="1043" y="511">Position Imaging</text>
+    <circle cx="730" cy="798" r="14" fill="#1768bd"/><text x="704" y="806" text-anchor="end">Assisted Sorting Cart</text>
+    <circle cx="544" cy="977" r="14" fill="#ef353d"/><text x="518" y="985" text-anchor="end">Manual Staff Handling</text>
+  </g>
+</svg>
